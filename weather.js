@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import getArgs from "./helpers/getArgs.js";
 import { printHelp, printError, printSuccess } from "./services/log.services.js";
 import { saveParam, getParam } from "./helpers/workWithParams.js";
